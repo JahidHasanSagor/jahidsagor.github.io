@@ -1,10 +1,6 @@
-import { Metadata } from 'next'
-import { motion } from 'framer-motion'
+'use client'
 
-export const metadata: Metadata = {
-  title: 'Research',
-  description: 'Academic research publications, thesis work, and contributions to the field of computer science and AI',
-}
+import { motion } from 'framer-motion'
 
 const researchItems = [
   {

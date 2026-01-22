@@ -1,10 +1,6 @@
-import { Metadata } from 'next'
-import ProjectCard from '@/components/ProjectCard'
+'use client'
 
-export const metadata: Metadata = {
-  title: 'Projects',
-  description: 'A collection of software engineering projects including AI applications, web platforms, and cloud solutions',
-}
+import ProjectCard from '@/components/ProjectCard'
 
 const projects = [
   {

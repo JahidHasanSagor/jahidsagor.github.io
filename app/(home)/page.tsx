@@ -1,12 +1,8 @@
-import { Metadata } from 'next'
+'use client'
+
 import Link from 'next/link'
 import { motion } from 'framer-motion'
 import ProjectCard from '@/components/ProjectCard'
-
-export const metadata: Metadata = {
-  title: 'Home',
-  description: 'Software Engineer specializing in AI, Web Development, Cloud Computing, and Academic Research',
-}
 
 const skills = [
   { name: 'AI/ML', icon: '🤖' },

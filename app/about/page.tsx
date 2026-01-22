@@ -1,10 +1,6 @@
-import { Metadata } from 'next'
-import { motion } from 'framer-motion'
+'use client'
 
-export const metadata: Metadata = {
-  title: 'About',
-  description: 'Learn more about Jahid Sagor - Software Engineer, Researcher, and technology enthusiast',
-}
+import { motion } from 'framer-motion'
 
 const experiences = [
   {
